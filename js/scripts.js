@@ -4,7 +4,8 @@ $(document).ready(function() {
   suits.forEach(function(suit) {
     numbers.forEach(function(number) {
     const cardName = number.concat(suit);
-    console.log(cardName);
+
+    $(".display").append(cardName);
   });
 });
 
